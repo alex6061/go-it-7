@@ -1,0 +1,19 @@
+body,p,ul,h1,h2,h3,h4,h5,h6,button{margin: 0 auto;padding: 0}
+a{text-decoration: none;}
+*,*::before,*::after{box-sizing: inherit;}
+img { display: block; max-width: 100%; height: auto; }
+li {list-style: none;}
+
+::-webkit-input-placeholder {color:#c0392b; margin-left: 10px}
+::-moz-placeholder          {color:#c0392b;}/* Firefox 19+ */
+:-moz-placeholder           {color:#c0392b;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#c0392b;}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+p {
+  color: #757575;
+}
