@@ -130,18 +130,8 @@
   fill: #212121;
   display: inline-block;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    .form__name:hover & {
-      fill: #2196f3;
-    }
-    .form__name:focus & {
-      fill: #2196f3;
-    }
-    .form__name:active & {
-      fill: #2196f3;
-    }
+
 }
-
-
 
 #comment {
   padding: 10px;
