@@ -108,14 +108,18 @@
   border-radius: 4px;
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     &:hover, &:focus, &:active {
       border-color: $fillColor;
       outline: none;
-      .form__svg:hover & {
-        fill: #2196f3;
-        border-color: $fillColor;
-      }
+    }
+    &:focus + .form__svg {
+      fill: #2196f3;
+    }
+    &:hover + .form__svg {
+      fill: #2196f3;
+    }
+    &:active + .form__svg {
+      fill: #2196f3;
     }
 }
 
@@ -126,16 +130,17 @@
   fill: #212121;
   display: inline-block;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover, &:focus, &:active {
-      fill: $fillColor;
-      cursor: pointer;
-      border-color: $fillColor;
+    .form__name:hover & {
+      fill: #2196f3;
     }
-  .form__name:active & {
-    border-color: $fillColor;
-    fill: $fillColor;
-  }
+    .form__name:focus & {
+      fill: #2196f3;
+    }
+    .form__name:active & {
+      fill: #2196f3;
+    }
 }
+
 
 
 #comment {
