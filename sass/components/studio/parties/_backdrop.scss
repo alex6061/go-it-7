@@ -112,6 +112,10 @@
     &:hover, &:focus, &:active {
       border-color: $fillColor;
       outline: none;
+      .form__svg:hover & {
+        fill: #2196f3;
+        border-color: $fillColor;
+      }
     }
 }
 
